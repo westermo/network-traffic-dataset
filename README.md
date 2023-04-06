@@ -111,20 +111,20 @@ general features, and TCP features.
 
 Overview of hardware used:
 
-|Name    | Initial IP    | MAC               | Hardware            |
-|--------|---------------|-------------------|---------------------|
-|A1      | 198.18.134.99 | 00:24:9b:6d:b8:89 | Laptop              |  
-|A2      | 198.18.134.14 | b8:27:eb:d1:b7:ef | Raspberry Pi 3B+    |
-|hub     | 198.18.134.1  | 00:07:7c:88:6e:83 | Westermo router     |
-|left    | 198.18.134.2  | 00:07:7c:88:6e:63 | Westermo router     |
-|filler  | 198.18.134.3  | 00:07:7c:29:de:41 | Westermo router     |
-|right   | 198.18.134.4  | 00:07:7c:29:de:61 | Westermo router     |
-|top     | 198.18.134.5  | 00:07:7c:8c:43:83 | Westermo router     |
-|bottom  | 198.18.134.6  | 00:07:7c:8c:43:63 | Westermo router     |
-|PLC1    | 198.18.134.11 | b8:27:eb:6d:4f:4b | Raspberry Pi 3 v1.2 |
-|PLC2    | 198.18.134.12 | b8:27:eb:5b:50:19 | Raspberry Pi 3B+    |
-|HMI1    | 198.18.134.15 | b8:27:eb:15:88:9c | Raspberry Pi 3 v1.2 |
-|SimFact | 198.18.134.31 | b8:27:eb:3e:5d:96 | Raspberry Pi 2B     |
+|Name    | Initial IP    | MAC                 | Hardware            |
+|--------|---------------|---------------------|---------------------|
+|A1      | 198.18.134.99 | `00:24:9b:6d:b8:89` | Laptop              |
+|A2      | 198.18.134.14 | `b8:27:eb:d1:b7:ef` | Raspberry Pi 3B+    |
+|hub     | 198.18.134.1  | `00:07:7c:88:6e:83` | Westermo router     |
+|left    | 198.18.134.2  | `00:07:7c:88:6e:63` | Westermo router     |
+|filler  | 198.18.134.3  | `00:07:7c:29:de:41` | Westermo router     |
+|right   | 198.18.134.4  | `00:07:7c:29:de:61` | Westermo router     |
+|top     | 198.18.134.5  | `00:07:7c:8c:43:83` | Westermo router     |
+|bottom  | 198.18.134.6  | `00:07:7c:8c:43:63` | Westermo router     |
+|PLC1    | 198.18.134.11 | `b8:27:eb:6d:4f:4b` | Raspberry Pi 3 v1.2 |
+|PLC2    | 198.18.134.12 | `b8:27:eb:5b:50:19` | Raspberry Pi 3B+    |
+|HMI1    | 198.18.134.15 | `b8:27:eb:15:88:9c` | Raspberry Pi 3 v1.2 |
+|SimFact | 198.18.134.31 | `b8:27:eb:3e:5d:96` | Raspberry Pi 2B     |
 
 The network traffic was collected in a physical network topology constructed to be similar to an
 industrial communication network, see above Figure and Table. With ICSSIM this network simulated a
