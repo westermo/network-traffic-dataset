@@ -106,6 +106,11 @@ through the raw PCAP data, and creates CSV files with flow features. The CSV fil
 columns with 50 features and 4 labels. There are three categories of features: flow features,
 general features, and TCP features.
 
+In the CSV files, flows have been labeled with two different strategies: Injection Timing (IT)
+strategy (Lemay and Fernandez, 2016) and Network Security Tools (NST) (Guerra et al., 2022). For
+the IT strategy we label all traffic as anomalous during an ongoing attack, whereas the NST
+strategy only labels traffic from or to the attacker as anomalous.
+
 
 ## Network Devices used
 
@@ -190,12 +195,16 @@ traffic data set. Retrieved from <https://github.com/westermo>
 ## References
  1. A. D. Ghadim, A. Balador, M. H. Moghadam, H. Hansson, and M. Conti. ICSSIM -- a framework
     for building industrial control systems security testbeds. Computers in Industry, 148:103906,
-	2023.
+    2023.
  1. A. D. Ghadim, A. Balador, M. Helali Moghadam, and H. Hansson. Anomaly detection dataset for
     industrial control systems. (in press), 2023.
+ 1. J. L. Guerra, C. Catania, and E. Veas. Datasets are not enough: Challenges in labeling
+    network traffic. Computers & Security, 120:102810, 2022.
+ 1. A. Lemay and J. M. Fernandez. Providing scada network data sets for intrusion detection
+    research. In CSET@ USENIX Security Symposium, 2016.
  1. T. Markovic, M. Leon, D. Buffoni, and S. Punnekkat. Random forest based on federated learning
     for intrusion detection. In Artificial Intelligence Applications and Innovations: 18th IFIP WG
-	12.5 International Conference, AIAI 2022, Hersonissos, Crete, Greece, June 17–20, 2022,
-	Proceedings, Part I, pages 132–144. Springer, 2022.
+    12.5 International Conference, AIAI 2022, Hersonissos, Crete, Greece, June 17–20, 2022,
+    Proceedings, Part I, pages 132–144. Springer, 2022.
  1. P. E. Strandberg. Automated System-Level Software Testing of Industrial Networked Embedded
     Systems. PhD thesis, Mälardalen University, 2021.
